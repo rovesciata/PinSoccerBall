@@ -52,12 +52,6 @@ public class PlayerGoal : MonoBehaviour
                 audioSource.PlayOneShot(getGoalSound);
                 audioSource.PlayOneShot(whistleSound);
             }
-            // 残数が0になった場合
-            //else if (gameManager.totalTIme == 0)
-            //{
-            //    // ゲームオーバー画面に移動
-            //    SceneManager.LoadScene("GameOver");
-            //}
         }
 
     }

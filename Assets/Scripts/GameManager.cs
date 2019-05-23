@@ -11,10 +11,4 @@ public class GameManager : MonoBehaviour
     // 残り時間
     public int totalTIme = 45;
 
-    //public GameObject ball;
-
-    //void Start()
-    //{
-    //    Instantiate(ball, new Vector3(0f, 0.65f, -10f), Quaternion.identity);
-    //}
 }
